@@ -1,6 +1,5 @@
 import os
 try:
-    os.run("pip install nltk")
     import nltk
     nltk.download("punkt")
     nltk.download("stopwords")
