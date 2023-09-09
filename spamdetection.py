@@ -34,8 +34,8 @@ def transform_text(text):
     return " ".join(y)
 
 
-tfidf = pickle.load(open('/Users/nilaysaraf/Downloads/vectorizer.pkl','rb'))
-model = pickle.load(open('/Users/nilaysaraf/Downloads/mnb_model.pkl','rb'))
+tfidf = pickle.load(open('https://github.com/nilay220303/spamdetection/blob/main/vectorizer.pkl','rb'))
+model = pickle.load(open('https://github.com/nilay220303/spamdetection/blob/main/mnb_model.pkl','rb'))
 
 st.title("SMS Spam Classifier")
 input_sms = st.text_area("Enter the message")
