@@ -1,3 +1,12 @@
+import os
+try:
+    os.run("pip install nltk")
+    import nltk
+    nltk.download("punkt")
+    nltk.download("stopwords")
+except;
+    pass
+
 import streamlit as st
 import pickle
 import string
@@ -6,8 +15,6 @@ import nltk
 import sklearn
 from nltk.stem.porter import PorterStemmer
 
-#nltk.download("punkt")
-#nltk.download("stopwords")
 
 ps = PorterStemmer()
 
