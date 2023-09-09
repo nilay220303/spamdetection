@@ -4,7 +4,7 @@ try:
     import nltk
     nltk.download("punkt")
     nltk.download("stopwords")
-except;
+except:
     pass
 
 import streamlit as st
