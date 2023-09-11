@@ -62,5 +62,4 @@ if st.button('Predict'):
 
 st.write('''Made by:\n
             Nilay Saraf\n
-            -----------\n
-            nilaysaraf.com''')
+    nilaysaraf.com''')
