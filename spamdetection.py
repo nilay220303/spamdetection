@@ -59,3 +59,8 @@ if st.button('Predict'):
         
     else:
         st.header("Not Spam")
+
+st.write('''Made by:
+            Nilay Saraf
+            -----------
+            nilaysaraf.com''')
